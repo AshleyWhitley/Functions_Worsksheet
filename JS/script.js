@@ -30,10 +30,8 @@
 function circum() {
     	  var radius = prompt("Enter the radius of the circle"+".");
     	  var circle = Math.round(2 * Math.PI * radius);
-    	  alert("The circumference is "+ circle)
+    	  alert("The circumference of the circle is"+ " " +circle+".")
     	}
-
-
 
 /*Stung!
 
@@ -49,3 +47,9 @@ function circum() {
  Result to print to the console:
  “It takes X bee stings to kill this animal.
  */
+
+function pounds(){
+    var weight = prompt("Enter the animal's weight in pounds.");
+    var number = Math.round(8.66666667 * weight);
+    alert("It takes" +" "+ number +" "+ "stings to kill this animal.")
+}
