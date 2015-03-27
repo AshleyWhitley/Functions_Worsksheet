@@ -1,6 +1,3 @@
-/**
- * Created by MissyGotGame on 3/26/15.
- */
 /* Ashley Whitley
  Functions Worksheet
  March 26, 2015
@@ -21,12 +18,20 @@
 
 //First need to know the formula for the circumference of a circle which is C = d * PI * r
 
-calcCirc(3, 3.13, 2);
+//FIRST ATTEMPT
 
-function calcCirc( d, PI, r ){
+//calcCirc(3, 3.13, 2);
+
+/*function calcCirc( d, PI, r ){
     var circ = d * PI * r;
     console.log(circ);
-}
+}*/
+
+function circum() {
+    	  var radius = prompt("Enter the radius of the circle"+".");
+    	  var circle = Math.round(2 * Math.PI * radius);
+    	  alert("The circumference is "+ circle)
+    	}
 
 
 
@@ -43,4 +48,4 @@ function calcCirc( d, PI, r ){
  Number of Bee stings
  Result to print to the console:
  “It takes X bee stings to kill this animal.
- /*
+ */
