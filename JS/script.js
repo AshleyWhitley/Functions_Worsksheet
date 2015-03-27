@@ -51,5 +51,5 @@ function circum() {
 function pounds(){
     var weight = prompt("Enter the animal's weight in pounds.");
     var number = Math.round(8.66666667 * weight);
-    alert("It takes" +" "+ number +" "+ "stings to kill this animal.")
+    alert("It takes" +" "+ number +" "+ "bee stings to kill this animal.")
 }
